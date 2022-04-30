@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue-Cinema</title>
+    <link rel="stylesheet" href="libs/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__sub">
+                <i class="fal fa-film fa-3x"></i>
+                <p>See no special offer <br> restrictions</p>
+            </div>
+        </div>
+        <nav class="header__nav">
+            <div class="container">
+                <div class="navbar">
+                    <a class="navbar-logo" href="#!">
+                        <img src="images/logo.png" alt="logo">
+                        CINEMAS
+                    </a>
+                    <ul class="navbar__list">
+                        <li class="navbar__list-li"><a class="navbar__list-link" href="#!">Films</a></li>
+                        <li class="navbar__list-li"><a class="navbar__list-link" href="#!">Serials</a></li>
+                        <li class="navbar__list-li"><a class="navbar__list-link" href="#!">Cartoons</a></li>
+                        <li class="navbar__list-li"><a class="navbar__list-link" href="#!">Collections</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="film__shablon">
+            <div class="film__shablon-shadow">
+                <div class="container">
+                    <div class="shablon__sub">
+                        <h1 class="shablon__sub-title">
+                            Kong: Skull Island
+                        </h1>
+                        <p class="sahblon__sub-text">
+                            The film takes the viewer to the 70s of the last century. The protagonist organizes an
+                            expedition to the Skull island, always covered in fog, on which King Kong was once caught to
+                            find the missing brother and some mysterious substance. During...
+                        </p>
+                        <div class="sub__item">
+                            <button class="sub__item-btn">Watch&nbsp;now</button>
+                            <button class="sub__item-btn">Download</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="film__top">
+            <div class="container">
+                <h2 class="film__all-title">films</h2>
+                <div class="film__category">
+                    <div class="film__new">
+                        <img class="film__new-images" src="images/film-1.png" alt="film">
+                        <div class="film__new-hover">
+                            <i class="fad fa-play fa-3x"></i>
+                            <p class="film__new-time">2:14:33</p>
+                            <h3 class="film__new-title">Black Panther</h3>
+                            <p class="film__new-text">
+                                At first glance, you can decide that Wakanda is an ordinary territory of wild Africa,
+                                but this is not so. Here, in the bowels of the desert lands, there are hidden deposits
+                                of a unique metal capable of absorbing...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="film__new">
+                        <img class="film__new-images" src="images/film-2.png" alt="film">
+                        <div class="film__new-hover">
+                            <i class="fad fa-play fa-3x"></i>
+                            <p class="film__new-time">2:32:13</p>
+                            <h3 class="film__new-title">The Dark Knight</h3>
+                            <p class="film__new-text">
+                                Batman raises stakes in the war on crime. With the help of Lieutenant Jim Gordon and
+                                Attorney Harvey Dent, he intends to clear the streets of crime that is poisoning the
+                                city. The cooperation is effective, but soon they...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="film__new">
+                        <img class="film__new-images" src="images/film3.png" alt="film">
+                        <div class="film__new-hover">
+                            <i class="fad fa-play fa-3x"></i>
+                            <p class="film__new-time">1:53:45</p>
+                            <h3 class="film__new-title">The Gentlemen</h3>
+                            <p class="film__new-text">
+                                One cunning American, from his student years, had been selling drugs, and now he came up
+                                with a scheme of illegal enrichment using the estates of an impoverished English
+                                aristocracy and made a very good fortune on ...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="film__new">
+                        <img class="film__new-images" src="images/film-4.png" alt="film">
+                        <div class="film__new-hover">
+                            <i class="fad fa-play fa-3x"></i>
+                            <p class="film__new-time">2:58:20</p>
+                            <h3 class="film__new-title">The Lord of the...</h3>
+                            <p class="film__new-text">
+                                Tales of Middle-earth is a chronicle of the Great War for the Ring, a war that lasted
+                                more than one thousand years. The one who owned the Ring received power over all living
+                                creatures, but was obliged to serve evil...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="film__trailer">
+            <video loop autoplay muted id="myVideo">
+                <source src="video/video-trailer.mp4" type="video/mp4">
+            </video>
+            <div class="trailer__des">
+                <div class="container">
+                    <div class="trailer__content">
+                        <img src="images/triler-name.png" alt="black-widow">
+                        <p class="trailer__des-text">
+                            After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the
+                            past. The Red Room again made itself felt - a program to create Widows - professional killers
+                            and spies - just like her. Natasha decides once and for all to deal with people whose efforts
+                            she herself became a Widow.
+                        </p>
+                        <button class="trailer__des-btn">Watch now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="film__collection">
+            <div class="container">
+                <h2 class="film__all-title">Collections</h2>
+                <div class="collection__content">
+                    <div class="collection__top">
+                        <img src="images/collection1.png" alt="top-film one">
+                        <div class="collection__top-active">
+                            <img src="images/line.png" alt="line">
+                            <div>
+                                <i class="fad fa-play fa-3x"></i>
+                                <p class="collection__active-text">All Marvel Films</p>
+                            </div>
+                            <img src="images/line.png" alt="line">
+                        </div>
+                    </div>
+                    <div class="collection__top">
+                        <img src="images/collection2.png" alt="top-film two">
+                        <div class="collection__top-active">
+                            <img src="images/line.png" alt="line">
+                            <div>
+                                <i class="fad fa-play fa-3x"></i>
+                                <p class="collection__active-text">Fast and the Furious</p>
+                            </div>
+                            <img src="images/line.png" alt="line">
+                        </div>
+                    </div>
+                    <div class="collection__top">
+                        <img src="images/collection3.png" alt="top-film three">
+                        <div class="collection__top-active">
+                            <img src="images/line.png" alt="line">
+                            <div>
+                                <i class="fad fa-play fa-3x"></i>
+                                <p class="collection__active-text">Star Wars</p>
+                            </div>
+                            <img src="images/line.png" alt="line">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="film__series">
+            <div class="container">
+                <h2 class="film__all-title">Series</h2>
+                <div class="series__content">
+                    <div class="series__top item__hover">
+                        <img src="images/series__top-images.png" alt="">
+                        <div class="seriestop__hover">
+                            <h3 class="seriestop__hover-title">Game of Thrones</h3>
+                            <p class="seriestop__hover-text">
+                                The time of prosperity is drawing to a close, and the summer, which lasted almost a decade, is dying away. Around the center of power of the Seven Kingdoms, the Iron Throne, a conspiracy is ripening, and during this difficult time, the king decides to seek support from his youth friend Eddard Stark. In a world where everyone - from the king to the mercenary - is eager for power, intrigues and is ready to stick a knife in the back, there is ...
+                            </p>
+                            <button class="seriestop__hover-button">Watch now</button>
+                        </div>
+                    </div>
+                    <div class="series__bottom">
+                        <div class="series__bottom-left item__hover">
+                            <img src="images/series__bottom-1.png" alt="treyler-Wanda Vision">
+                            <div class="series__bottom-hover">
+                                <i class="fad fa-play fa-3x"></i>
+                                <h3 class="series__bottom-title">Wanda Vision</h3>
+                            </div>
+                        </div>
+                        <div class="series__bottom-right">
+                            <div class="series__bottom-block item__hover">
+                                <img src="images/series__bottom-2.png" alt="">
+                                <div class="series__bottom-hover">
+                                      <i class="fad fa-play fa-3x"></i>
+                                      <h3 class="series__bottom-title">The Flash</h3>
+                                </div>
+                            </div>
+                            <div class="series__bottom-block item__hover">
+                                <img src="images/series__bottom-3.png" alt="">
+                                <div class="series__bottom-hover">
+                                      <i class="fad fa-play fa-3x"></i>
+                                      <h3 class="series__bottom-title">The Great</h3>
+                                </div>
+                            </div>
+                            <div class="series__bottom-block item__hover">
+                                <img src="images/series__bottom-4.png" alt="">
+                                <div class="series__bottom-hover">
+                                      <i class="fad fa-play fa-3x"></i>
+                                      <h3 class="series__bottom-title">GOTHAM</h3>
+                                </div>
+                            </div>
+                            <div class="series__bottom-block item__hover">
+                                <img src="images/series__bottom-5.png" alt="">
+                                <div class="series__bottom-hover">
+                                      <i class="fad fa-play fa-3x"></i>
+                                      <h3 class="series__bottom-title">The witcher</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
